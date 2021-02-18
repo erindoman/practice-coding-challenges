@@ -8,7 +8,7 @@
 # ------------------------------------------------
 
 # Medium
-
+# 1. Find Duplicate Files
 class Solution(object):
     def findDuplicate(self, paths):
         """
