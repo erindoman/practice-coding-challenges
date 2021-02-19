@@ -18,6 +18,17 @@ var twoSum = function(nums, target) {
     }
 };
 
+// 3. Shuffle String
+
+var restoreString = function(s, indices) {
+    var len = indices.length
+    var str = new Array(len)
+    for(let i = 0; i < len; i++){
+        str[indices[i]] = s[i]
+        }
+    return str.join("")
+};
+
 // ------------------------------------------------
 
 // Medium
